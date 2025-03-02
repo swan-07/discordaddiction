@@ -76,9 +76,9 @@ document.getElementById("pdf-upload").addEventListener("change", async function 
                     const headingMessage = document.createElement("div");
                     headingMessage.classList.add("message");
                     headingMessage.innerHTML = `
-                        <div style="display: flex; align-items: center;">
-                            <img class="profile-pic" src="meow.png" alt="Profile">
-                            <span class="message-username">discordaddiction</span>
+                        <div class="message-username">
+                                <img src="meow.png" class="profile-pic" alt="Profile Picture">
+                            <span class="username">discordaddiction</span>
                         </div>
                         <div class="message-content" style="font-weight: bold; font-size: 1.2rem;">
                             ${text}
