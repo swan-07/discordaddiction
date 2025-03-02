@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'GG Sans', sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.upload-btn {
+    background-color: grey;
+    color: white;
+    font-size: 2rem;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#chat-container {
+    width: 90%;
+    height: 80%;
+    overflow-y: auto;
+    padding: 20px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.message {
+    margin-bottom: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.message-username {
+    font-weight: bold;
+    color: #4b89b9;
+    margin-bottom: 5px; 
+}
+
+.message-content {
+    padding-left: 10px; 
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px; 
+}
+
+
+
+#chat-container {
+    padding-left: 10px; /* Adjust this value as needed */
+}
+

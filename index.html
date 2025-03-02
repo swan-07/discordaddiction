@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=GG+Sans&display=swap" rel="stylesheet">
+    <title>PDF Upload</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="upload-container">
+        <input type="file" id="pdf-upload" accept="application/pdf" hidden onchange="document.querySelector('.upload-btn').style.display='none'">
+        <label for="pdf-upload" class="upload-btn">+</label>
+    </div>
+
+    <div id="chat-container" class="chat-container"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
